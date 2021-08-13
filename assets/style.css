@@ -35,7 +35,7 @@ header img {
 header h1 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2vw;
+    font-size: 2.7vw;
     background-color: beige;
     padding: 10px;
     border-radius: 15px;
@@ -80,6 +80,7 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: sans-serif;
 }
 
 section h2 {
@@ -89,6 +90,7 @@ section h2 {
     padding-left: 32px;
     flex-direction: column;
     display: inline-flex;
+    
 }
 
 .description {
