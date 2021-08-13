@@ -59,6 +59,11 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    color: rgb(143, 61, 159);
+}
+
+header:link {
+    text-decoration: none;
 }
 
 span {
@@ -116,4 +121,9 @@ section h2 {
     border: 2px solid purple;
     padding: 0;
     background-color: black;
+}
+
+#placeholder:hover {;
+    color: white;
+    transition: 0.3s ease;
 }
