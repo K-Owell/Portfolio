@@ -123,7 +123,7 @@ section h2 {
     background-color: black;
 }
 
-#placeholder:hover {;
+#placeholder:hover {
     color: white;
     transition: 0.3s ease;
 }
