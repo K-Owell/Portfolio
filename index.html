@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title> <!--Possibly change later to better title-->
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/style.css">
+    
 </head>
 <body>
     <!--start navigation-->
@@ -49,8 +61,23 @@
         <section>
             <h2 id="work">Work</h2>
             <div id="images">
-            <div class="description" id="runBuddy"><a href="https://k-owell.github.io/run-buddy/" target="_blank" ><img class="run-buddy" src="assets/Images/run-buddy-tease-large.png" alt="Run Buddy Teaser"></a></div>
-            <div class="description" id="placeholder"><a href="#"> <img class="temp" src="assets/Images/BHD_10B_Test-1.png" alt="placeholder blackhole by Newt"></a><p>Placeholder</p></div>
+                
+                <div class="description" id="music-page">
+                    <P class="is-size-2 has-background-dark has-text-light has-text-centered px-4 py-2">
+                        Music Previewer <i class="fas fa-music"></i>
+                    </P>
+                    <a class="music-page" ><script>
+                        var music = document.getElementById("music-page")
+                        function page() {location.href="https://k-owell.github.io/Project-HotTopic/"}
+                        music.addEventListener("click", page)
+                    </script>
+                    </a>
+                    
+                </div>
+
+                <div class="description" id="runBuddy"><a href="https://k-owell.github.io/run-buddy/" target="_blank" ><img class="run-buddy" src="assets/Images/run-buddy-tease-large.png" alt="Run Buddy Teaser"></a>
+                </div>
+                
             </div>
         </section>
         <br>

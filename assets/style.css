@@ -39,7 +39,6 @@ header h1 {
     background-color: beige;
     padding: 10px;
     border-radius: 15px;
-    
 }
 
 header nav {
@@ -120,7 +119,11 @@ section h2 {
     width: 75%;
     overflow: hidden;
     margin: auto;
+}
 
+a {
+    text-decoration: none;
+    color: purple
 }
 
 #images {
@@ -142,7 +145,7 @@ section h2 {
     display: flex;
 }
 
-.temp {
+.music {
     height: 177px;
     width: 400px;
     overflow: auto;
@@ -157,14 +160,16 @@ section h2 {
     filter: saturate(175%);
 }
 
-#placeholder {
+#music-page {
     margin: 20px;
-    border: 2px solid purple;
+    border: 2px solid rgb(130, 209, 209);
     padding: 0;
-    background-color: black;
+    width: 850px;
+    height: 200px;
+    background-color: #363636;
 }
 
-#placeholder:hover {
+#music-page:hover {
     color: white;
     transition: 0.3s ease;
 }
@@ -205,6 +210,5 @@ section h2 {
         
     }
 
-    
 
 }
